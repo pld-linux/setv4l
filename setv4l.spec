@@ -1,5 +1,5 @@
 Summary:	setv4l - small tool for changing the picutre settings
-Summary(pl):	setv4l - male narzedzie do zmiany ustawien obrazu
+Summary(pl):	setv4l - ma³e narzêdzie do zmiany ustawieñ obrazu
 Name:		setv4l
 Version:	0.3
 Release:	1
@@ -12,7 +12,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 setv4l is a small command line utility for changing the picture
-settings of a video 4 linux device. You change the following settings:
+settings of a Video 4 Linux device. You change the following settings:
 - brightness
 - hue
 - colour
@@ -20,11 +20,11 @@ settings of a video 4 linux device. You change the following settings:
 - whiteness
 
 %description -l pl
-setv4l jest malym narzedziem sluzacym do zmiany ustawiem obrazu. Mozna
-nim zmienic nastepujace ustawienia:
+setv4l jest ma³ym narzêdziem s³u¿±cym do zmiany ustawieñ obrazu. Mo¿na
+nim zmieniæ nastêpuj±ce ustawienia:
 - jaskrawo¶æ
-- barwa
-- color
+- barwê
+- kolor
 - kontrast
 - biel
 
@@ -37,8 +37,8 @@ nim zmienic nastepujace ustawienia:
 
 %install
 rm -rf $RPM_BUILD_ROOT
-
 install -d $RPM_BUILD_ROOT%{_bindir}
+
 install setv4l $RPM_BUILD_ROOT%{_bindir}
 
 %clean
