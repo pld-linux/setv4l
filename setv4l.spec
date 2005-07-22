@@ -3,7 +3,7 @@ Summary(pl):	setv4l - ma³e narzêdzie do zmiany ustawieñ obrazu
 Name:		setv4l
 Version:	0.3
 Release:	1
-License:	GPL
+License:	GPL v2
 Group:		Applications/Console
 Source0:	http://members.chello.nl/~j.vreeken/setv4l/%{name}-%{version}.tar.gz
 # Source0-md5:	95f02fe04766879f99e2a434b4558aaf
@@ -46,5 +46,5 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc README
+%doc CHANGELOG README
 %attr(755,root,root) %{_bindir}/*
