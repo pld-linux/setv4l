@@ -1,5 +1,5 @@
 Summary:	setv4l - small tool for changing the picutre settings
-Summary(pl.UTF-8):   setv4l - małe narzędzie do zmiany ustawień obrazu
+Summary(pl.UTF-8):	setv4l - małe narzędzie do zmiany ustawień obrazu
 Name:		setv4l
 Version:	0.3
 Release:	1
