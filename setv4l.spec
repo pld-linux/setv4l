@@ -1,5 +1,5 @@
 Summary:	setv4l - small tool for changing the picutre settings
-Summary(pl):	setv4l - ma³e narzêdzie do zmiany ustawieñ obrazu
+Summary(pl.UTF-8):   setv4l - maÅ‚e narzÄ™dzie do zmiany ustawieÅ„ obrazu
 Name:		setv4l
 Version:	0.3
 Release:	1
@@ -19,11 +19,11 @@ settings of a Video 4 Linux device. You change the following settings:
 - contrast
 - whiteness
 
-%description -l pl
-setv4l jest ma³ym narzêdziem s³u¿±cym do zmiany ustawieñ obrazu. Mo¿na
-nim zmieniæ nastêpuj±ce ustawienia:
-- jaskrawo¶æ
-- barwê
+%description -l pl.UTF-8
+setv4l jest maÅ‚ym narzÄ™dziem sÅ‚uÅ¼Ä…cym do zmiany ustawieÅ„ obrazu. MoÅ¼na
+nim zmieniÄ‡ nastÄ™pujÄ…ce ustawienia:
+- jaskrawoÅ›Ä‡
+- barwÄ™
 - kolor
 - kontrast
 - biel
